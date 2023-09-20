@@ -1,0 +1,53 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+.notification-app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #0f172a;
+  font-size: 35px;
+}
+.notification-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 500px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.message {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+.notification-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.n1-bg-color {
+  background-color: #0b69ff;
+}
+.n2-bg-color {
+  background-color: #2dca73;
+}
+.n3-bg-color {
+  background-color: #ffb800;
+}
+.n4-bg-color {
+  background-color: #ff0b37;
+}
